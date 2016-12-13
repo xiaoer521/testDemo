@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sample.netroid.vincestyling.com.commondemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VideoViewActivity" />
+        <activity android:name=".activity.ThreadActivity" />
+        <activity android:name=".activity.AdActivity" />
+        <activity android:name=".activity.CacheActivity" />
+        <activity android:name=".cacheDemo.SaveJsonObject" />
+        <activity android:name=".cacheDemo.SaveDrawable" />
+        <activity android:name=".cacheDemo.SaveBitmap" />
+        <activity android:name=".cacheDemo.SaveJsonArray" />
+        <activity android:name=".cacheDemo.SaveMedia" />
+        <activity android:name=".cacheDemo.SaveObject" />
+        <activity android:name=".cacheDemo.SaveString" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn_save_string"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="string"
+        android:text="缓存 String" />
+
+    <Button
+        android:id="@+id/btn_save_jsonobject"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="jsonobject"
+        android:text="缓存 JsonObject" />
+
+    <Button
+        android:id="@+id/btn_save_jsonarray"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="jsonarray"
+        android:text="缓存 JsonArray" />
+
+    <Button
+        android:id="@+id/btn_save_bitmap"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="bitmap"
+        android:text="缓存 Bitmap" />
+
+    <Button
+        android:id="@+id/btn_save_file"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="media"
+        android:text="缓存 Media" />
+
+    <Button
+        android:id="@+id/btn_save_drawable"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="drawable"
+        android:text="缓存 Drawable" />
+
+    <Button
+        android:id="@+id/btn_save_object"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="object"
+        android:text="缓存 Object" />
+</LinearLayout>
