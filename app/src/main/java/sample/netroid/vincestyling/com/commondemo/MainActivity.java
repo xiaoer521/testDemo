@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mButton3;
     private Button mButton4;
     private Button mButton5;
+    private Button mButton6;
+    private Button mButton7;
     private PingStartVideo mPingStartVideo;
 
     @Override
@@ -38,11 +40,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButton4 = (Button) findViewById(R.id.button4);
         mButton5 = (Button) findViewById(R.id.button5);
 
+        mButton6 = (Button) findViewById(R.id.button6);
+        mButton7 = (Button) findViewById(R.id.button7);
+
         mButton1.setOnClickListener(this);
         mButton2.setOnClickListener(this);
         mButton3.setOnClickListener(this);
         mButton4.setOnClickListener(this);
         mButton5.setOnClickListener(this);
+
+        mButton6.setOnClickListener(this);
+        mButton7.setOnClickListener(this);
     }
 
     @Override
