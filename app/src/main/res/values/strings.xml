@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CommonDemo</string>
+    <string name="volley_cancle_download">volley取消某个文件的下载</string>
 </resources>

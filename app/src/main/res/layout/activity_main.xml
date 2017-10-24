@@ -16,7 +16,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="volley取消某个文件的下载"/>
+        android:text="@string/volley_cancle_download"/>
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
